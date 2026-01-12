@@ -132,9 +132,8 @@ const equiposVisibles = computed(() => {
 })
 
 /* Clase para ícono de filtro (simple) */
-const getFilterHeaderClass = () => '' // opcional: lo puedes eliminar o dejar así
+const getFilterHeaderClass = () => '' 
 
-/* Estilos estado (simple, sin hashing) */
 const estadoStyles = {
   disponible: { background: 'rgba(26,188,156,0.18)', color: '#0e6251', border: '1px solid rgba(26,188,156,0.5)' },
   mantenimiento: { background: 'rgba(243,156,18,0.2)', color: '#7d6608', border: '1px solid rgba(243,156,18,0.55)' },
