@@ -144,6 +144,9 @@ label {
 :deep(.p-inputtextarea::placeholder) {
     color: var(--muted);
 }
+textarea#codigos::placeholder{
+    opacity: 0.5;
+}
 :deep(.p-inputtext:focus),
 :deep(.p-inputtextarea:focus) {
     border-color: var(--accent);
