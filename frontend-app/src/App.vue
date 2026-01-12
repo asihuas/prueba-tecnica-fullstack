@@ -136,9 +136,9 @@ const getFilterHeaderClass = () => '' // opcional: lo puedes eliminar o dejar as
 
 /* Estilos estado (simple, sin hashing) */
 const estadoStyles = {
-  entregado: { background: 'rgba(26,188,156,0.18)', color: '#0e6251', border: '1px solid rgba(26,188,156,0.5)' },
-  pendiente: { background: 'rgba(243,156,18,0.2)', color: '#7d6608', border: '1px solid rgba(243,156,18,0.55)' },
-  reparacion: { background: 'rgba(52,152,219,0.18)', color: '#1b4f72', border: '1px solid rgba(52,152,219,0.5)' },
+  disponible: { background: 'rgba(26,188,156,0.18)', color: '#0e6251', border: '1px solid rgba(26,188,156,0.5)' },
+  mantenimiento: { background: 'rgba(243,156,18,0.2)', color: '#7d6608', border: '1px solid rgba(243,156,18,0.55)' },
+  alquilado: { background: 'rgba(52,152,219,0.18)', color: '#1b4f72', border: '1px solid rgba(52,152,219,0.5)' },
   default: { background: 'rgba(236,240,241,0.9)', color: '#2c3e50', border: '1px solid rgba(189,195,199,0.6)' }
 }
 
